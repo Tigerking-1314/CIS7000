@@ -1,0 +1,44 @@
+{
+  "trips": {
+    "California Coast": [
+      {
+        "location": "San Francisco",
+        "note": "foggy but great food"
+      },
+      {
+        "location": "Big Sur",
+        "note": "coastline"
+      },
+      {
+        "location": "Los Angeles",
+        "note": ""
+      },
+      {
+        "location": "San Diego",
+        "note": ""
+      }
+    ],
+    "Texas Road Trip": [
+      {
+        "location": "Dallas",
+        "note": "Deep Ellum nightlife, art district, start of the trip"
+      },
+      {
+        "location": "Austin",
+        "note": "Live music on 6th Street, Barton Springs, food trucks"
+      },
+      {
+        "location": "San Antonio",
+        "note": "The Alamo, River Walk, Tex-Mex"
+      },
+      {
+        "location": "Houston",
+        "note": "Space Center Houston, museum district, diverse food scene"
+      },
+      {
+        "location": "Galveston",
+        "note": "Gulf Coast beach, Seawall, Moody Gardens — trip finale"
+      }
+    ]
+  }
+}

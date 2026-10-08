@@ -8,12 +8,20 @@ instrument you can imagine. See docs/adr/ for every choice made here.
 import os
 from datetime import datetime, timezone
 from mcp.server.fastmcp import FastMCP
+from trip_planner import register
+from favorites import register as register_favorites
+from road_trip import register as register_road_trip
+from memory import register as register_memory
 
 mcp = FastMCP(
     "your-first-instrument",
     host="0.0.0.0",
     port=int(os.environ.get("PORT", 8000)),
 )
+register(mcp)
+register_favorites(mcp)
+register_road_trip(mcp)
+register_memory(mcp)
 
 @mcp.tool()
 def current_time() -> str:
